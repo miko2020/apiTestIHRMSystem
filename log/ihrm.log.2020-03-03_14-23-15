@@ -1,0 +1,9 @@
+2020-03-03 14:23:15,469 INFO [root] [__init__.py(<module>:15)] - 测试日志是否能够正常打印2！
+2020-03-03 14:23:15,659 INFO [root] [employe_params.py(test01_login_success:24)] - 员工模块的登陆结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '18cce789-5b49-4216-ab51-e94769c42871'}
+2020-03-03 14:23:15,660 INFO [root] [employe_params.py(test01_login_success:27)] - 取出的令牌为：Bearer 18cce789-5b49-4216-ab51-e94769c42871
+2020-03-03 14:23:15,660 INFO [root] [employe_params.py(test01_login_success:33)] - 员工模块请求头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer 18cce789-5b49-4216-ab51-e94769c42871'}
+2020-03-03 14:23:15,661 INFO [root] [employe_params.py(test02_add_emp:37)] - 保存在类方法的属性值{'Content-Type': 'application/json', 'Authorization': 'Bearer 18cce789-5b49-4216-ab51-e94769c42871'}
+2020-03-03 14:23:15,767 INFO [root] [employe_params.py(test02_add_emp:42)] - 添加员工接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234726010674827264'}}
+2020-03-03 14:23:15,767 INFO [root] [employe_params.py(test02_add_emp:49)] - 保存的员工ID为：1234726010674827264
+2020-03-03 14:23:15,869 INFO [root] [employe_params.py(test03_query_emp:55)] - 查询员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234726010674827264', 'mobile': '12356789431', 'username': '井冈山xxxx001', 'password': 'f515459854b2beea1fb2c5e5b736f4b7', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1205026005332635648', 'timeOfEntry': '2020-02-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-02-03T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '酱油2部', 'roleIds': [], 'staffPhoto': None}}
+2020-03-03 14:23:15,985 INFO [root] [employe_params.py(test05_delete_emp:87)] - 删除员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
